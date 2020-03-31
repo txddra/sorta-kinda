@@ -22,6 +22,20 @@ const firstNameIsFirstAlphabetically = function(name1, name2){
   }
 };
 
+const firstLastNameIsFirstAlphabetically = function(fName1, fName2){
+  
+  let lName1 = fName1.slice(fName1.indexOf(' ') + 1);
+  let lName2 = fName2.slice(fName2.indexOf(' ') + 1);
+  
+  if (lName1 > lName2) {
+    return 1;
+  } else if (lName1 < lName2) {
+    return -1;
+  } else {
+    return 0;
+  }
+};
+
 /************************
 // ITERATION FUNCTIONS
  ************************/
