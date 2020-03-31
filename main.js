@@ -48,7 +48,14 @@ const trueIsFirst = function (bool1, bool2){
   } else {
     return 0;
   }
-}   
+} 
+
+const sortByNumberAscending = function(nums){
+ let numsAscend = nums.slice();
+ 
+    return numsAscend.sort(firstNumberIsLess);
+  }
+
     
 
 
