@@ -39,8 +39,17 @@ const firstLastNameIsFirstAlphabetically = function(fName1, fName2){
 /************************
 // ITERATION FUNCTIONS
  ************************/
+const trueIsFirst = function (bool1, bool2){
+  if (bool1 === true && bool2 === false) {
+    return -1;
+  } else if (bool1 === false && bool2 === true){
 
-
+    return 1;
+  } else {
+    return 0;
+  }
+}   
+    
 
 
 /*********************************
