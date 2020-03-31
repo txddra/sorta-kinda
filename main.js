@@ -50,19 +50,23 @@ const trueIsFirst = function (bool1, bool2){
   }
 } 
 
-const sortByNumberAscending = function(nums){
- let numsAscend = nums.slice();
+const sortByNumberAscending = function(num){
+ let numsAscend = num.slice();
 
     return numsAscend.sort(firstNumberIsLess);
   }
 
-  const sortByNumberDescending = function(nums){
-    let numsDescend = nums.slice();
+  const sortByNumberDescending = function(num){
+    let numsDescend = num.slice();
 
     return numsDescend.sort(secondNumberIsLess)
     }
     
+const truesFirst = function(arr){
+let theTruth = arr.slice();
 
+return theTruth.sort(trueIsFirst)
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
