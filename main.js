@@ -9,8 +9,18 @@
 
 const secondNumberIsLess = function (num1, num2){
   return num2 - num1
-  
+
 }
+
+const firstNameIsFirstAlphabetically = function(name1, name2){
+  if (name1 > name2) {
+    return 1;
+  } else if (name1 < name2) {
+    return -1;
+  } else {
+    return 0;
+  }
+};
 
 /************************
 // ITERATION FUNCTIONS
