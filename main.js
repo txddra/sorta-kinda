@@ -2,7 +2,10 @@
  * YOUR CODE HERE *
  ******************/
 
-
+ const firstNumberIsLess = function (num1, num2){
+ return num1 - num2
+  
+}
 
 
 /************************
