@@ -68,11 +68,17 @@ let theTruth = arr.slice();
 return theTruth.sort(trueIsFirst)
 }
 
-const sortByNameAscending = function(name){
-  let namesAscend = name.slice();
+const sortByNameAscending = function(fName){
+  let namesAscend = fName.slice();
 
   return namesAscend.sort(firstNameIsFirstAlphabetically)
 
+}
+
+const sortByLastNameAscending = function(lName){
+  let lNameAscend = lName.slice();
+
+  return lNameAscend.sort(firstLastNameIsFirstAlphabetically)
 }
 
 /*********************************
