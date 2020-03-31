@@ -17,9 +17,9 @@ const firstNameIsFirstAlphabetically = function(name1, name2){
     return 1;
   } else if (name1 < name2) {
     return -1;
-  } else {
+  } 
     return 0;
-  }
+  
 };
 
 const firstLastNameIsFirstAlphabetically = function(fName1, fName2){
@@ -31,10 +31,10 @@ const firstLastNameIsFirstAlphabetically = function(fName1, fName2){
     return 1;
   } else if (lName1 < lName2) {
     return -1;
-  } else {
-    return 0;
   }
-};
+    return 0;
+  };
+
 
 /************************
 // ITERATION FUNCTIONS
@@ -45,10 +45,10 @@ const trueIsFirst = function (bool1, bool2){
   } else if (bool1 === false && bool2 === true){
 
     return 1;
-  } else {
+  } 
     return 0;
   }
-} 
+ 
 
 const sortByNumberAscending = function(num){
  let numsAscend = num.slice();
